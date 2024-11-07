@@ -1,0 +1,9 @@
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+}
+
+body {
+    background-color:#181a1b;
+}
