@@ -3,56 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced search</title>
+    <link rel="stylesheet" href="advanced.css">
+    <title>Advanced Search</title>
 </head>
 <body>
     <header>
         <div class="up-left">
-            <label for="">Google</label>
+            <label>Google</label>
         </div>
-        <div class="up-right">
+        <nav class="up-right">
             <a href="index.html">Googlealo</a>
             <a href="images.html">Googlealo Images</a>
-        </div>
+        </nav>
     </header>
+
     <div class="appbar">
-        <label for="">Advanced search</label>
+        <label>Advanced Search</label>
     </div>
 
     <div class="line"></div>
 
     <div class="wrapper">
         <div class="up-text">
-            <div class="l-message"><label for="">Find pages with...</label></div>
-            <div class="r-message"><label for="">To do this in the search box</label></div>
+            <div class="l-message"><label>Find pages with...</label></div>
+            <div class="r-message"><label>To do this in the search box</label></div>
         </div>
 
         <form action="https://google.com/search">
             <div class="row">
-                <div class="message">all these words: </div>
+                <div class="message">All these words:</div>
                 <div class="input"><input class="query" type="text" name="as_q"></div>
-                <div class="r-message">type important words: <b>Tri-color rat terrier</b></div>
+                <div class="r-message">Type important words: <b>Tri-color rat terrier</b></div>
             </div>
             <div class="row">
-                <div class="message">this exact word or phrase: </div>
+                <div class="message">This exact word or phrase:</div>
                 <div class="input"><input class="query" type="text" name="as_epq"></div>
                 <div class="r-message">Put the exact words in quotes: <b>"buzzard terrier"</b>.</div>
             </div>
             <div class="row">
-                <div class="message">any of these words: </div>
+                <div class="message">Any of these words:</div>
                 <div class="input"><input class="query" type="text" name="as_oq"></div>
-                <div class="r-message">type OR between all the words you want: <b>miniature OR standard</b>.</div>
+                <div class="r-message">Type OR between all the words you want: <b>miniature OR standard</b>.</div>
             </div>
             <div class="row">
-                <div class="message">none of these words</div>
+                <div class="message">None of these words:</div>
                 <div class="input"><input class="query" type="text" name="as_eq"></div>
-                <div class="r-message">Put a minus sign just before words that you dont want to appear:
+                <div class="r-message">Put a minus sign just before words that you don’t want to appear:
                     <b>-rodent, -"Jack Russell"</b>.</div>
             </div>
+            
             <div class="bton"><input type="submit" value="Advanced Search"></div>
         </form>
-
     </div>
-
 </body>
 </html>
