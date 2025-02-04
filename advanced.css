@@ -1,0 +1,109 @@
+/* Estilos generales */
+body {
+    background-color: #181a1b;
+    font-family: Arial, sans-serif;
+    color: #bdc1c6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between; /* Espacia los elementos */
+    align-items: center; /* Centra verticalmente */
+    padding: 10px 20px;
+}
+
+.up-left {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.up-right a {
+    color: #8ab4f8;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.up-right a:hover {
+    text-decoration: underline;
+}
+
+/* Appbar */
+.appbar {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 20px;
+    color: rgb(241, 131, 121);
+}
+
+/* Línea divisoria */
+.line {
+    border-bottom: 1px solid #5f6368;
+    margin: 10px 20px;
+}
+
+/* Contenedor principal */
+.wrapper {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Primera fila de texto */
+.up-text {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Fila de cada input */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; /* Agrega espacio entre los elementos */
+    margin-bottom: 10px; /* Espacio entre las filas */
+}
+
+.message {
+    width: 30%;
+}
+
+.input input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #5f6368;
+    background-color: #202124;
+    color: #bdc1c6;
+    border-radius: 4px;
+}
+
+.r-message {
+    width: 40%;
+    font-size: 12px;
+    color: #c8c3bc;
+}
+
+/* Botón */
+.bton {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.bton input {
+    background-color:rgb(7, 50, 118);
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.bton input:hover {
+    background-color: #4a90e2;
+}
