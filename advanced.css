@@ -46,8 +46,7 @@ header {
 
 /* Contenedor principal */
 .wrapper {
-    width: 80%;
-    max-width: 800px;
+
     margin: auto;
     padding: 20px;
 }
@@ -73,9 +72,13 @@ header {
     width: 30%;
 }
 
+.input{
+    flex-grow: 1;
+}
+
 .input input {
     width: 100%;
-    padding: 8px;
+    padding: 9px;
     border: 1px solid #5f6368;
     background-color: #202124;
     color: #bdc1c6;
@@ -86,6 +89,7 @@ header {
     width: 40%;
     font-size: 12px;
     color: #c8c3bc;
+    margin-left: 10px;
 }
 
 /* Botón */
